@@ -1,0 +1,20 @@
+<!DOCTYPE  HTML>
+<html>
+	<head> 
+		<meta charset ="utf-8">
+		<title>javascript</title>		
+		 <table border="10">
+			<script language="javascript">
+			var  DrinkName = new Array("卡布奇諾","拿鐵咖啡","血腥瑪麗","長島冰茶","愛爾蘭咖啡","藍色夏威夷","英式水果冰茶");
+			for(var i=0 ; i< DrinkName.length;i++)
+			{
+				document.write("<tr><td>飲料"+ (i+1) +"</td>")
+				document.write("<td>"+DrinkName[i]+"</td></tr>")
+			}
+			</script>
+		 </table>	
+	</head>
+	<body >
+	
+	</body>
+</html> 
