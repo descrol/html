@@ -1,0 +1,57 @@
+<!DOCTYPE  HTML>
+<html>
+	<head> 
+		<meta charset ="utf-8"></meta>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+		<title>仁仁的自我介紹</title>		
+	<style type="text/css">
+		 a{text-decoration:none;}
+		.head{
+			background-color:#003344;color:white;font-size:30px;font-weight:bold;
+			text-align:center;padding:20px;
+		}
+		.content{
+			width:1000px;margin-left:auto;margin-right:auto;font-size:18px;font-family:微軟正黑體;
+			letter-spacing:1px;
+		}
+		.box{
+			width:280px;padding:10px;margin:10px;background-color:white;
+			display:inline-block;vertical-align:top;
+			text-align:center;height:300px;line-height:35px;
+		}
+		.title{font-size:22px;font-weight:bold;font-family:微軟正黑體}
+		@media screen and (max-width:600px){
+				.content{width:100%;text-align:center;}
+		}
+	</style>
+	</head>
+	<body style="margin:0px;background-color:#eeeeee">
+			<div class="head">仁仁的自我介紹</div>
+			<div class="content">
+				<div class="box">
+					<div class="title">我的基本資料</div>	
+						<div>張立仁 ♂ </div>
+						<div><img src ="IMAG0159.jpg"height="135" width="115"></div>
+						<div> 83年6月8日 雙子座</div>
+						<div><a href = "https://www.google.com.tw/maps/@25.0847194,121.4741826,15z?hl=zh-TW">我住台灣</a></div>
+						
+				</div>
+				<div class="box">
+					<div class="title">我的個人愛好</div>
+						<div>跑 步</div>
+						<div>聽 音 樂 <a href = "https://www.youtube.com/playlist?list=PLhcDcYLVGI2cOmbdXApN7uUqtmnx_GDqM">Music Link</a></div>
+						<div>唱 歌</div>
+						<div>看 電 影</div>
+				</div>
+				<div class="box">
+					<div class="title">歡迎與我聯絡</div>
+						
+						<div ><img src="Android.png"height="20"width="20"> 0983-177-142</div>
+						
+						<div><img src="email.png" height="20"width="20"> descrol@Yahoo.com.tw</div>
+						<div><a href = "https://www.facebook.com/profile.php?id=100005476984342"><img src="facebook.jpg"height="35"width="170"></a></div>
+				</div>
+			</div>
+	
+	</body>
+</html> 
