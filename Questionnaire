@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset ="utf-8">
+	<title>音樂調查表</title>
+	<style>
+	.content{
+	font-family:fantasy;font-size:25px;bold;font-weight:bold;
+	text-align:center;background-color:#D3D3D3;color:black;padding:118px
+	}
+	</style>
+</head>
+	<body style="margin:0px;">
+	<div class="content">
+	<div style="font-family:fantasy;font-size;text-align:center;"><h2>音樂調查表</h2></div>
+			<br>
+	 <form method="post" action="confirm.php">
+		<div >姓&nbsp;&nbsp;&nbsp;名：<input type="text" name="UserName" size="40"></div><br>
+		<div >E - mail：<input type="text" name="UserMail" size="40" value="username@mailserver"></div><br>	
+		<span >年&nbsp;&nbsp;齡：</span>
+			<input type="radio" name="UserAge" value="Age1">未滿20歲
+			<input type="radio" name="UserAge" value="Age2" checked>20~29
+			<input type="radio" name="UserAge" value="Age3">30~39
+			<input type="radio" name="UserAge" value="Age4">40~49
+			<input type="radio" name="UserAge" value="Age5">50歲以上<br><br>
+		<div >你/妳聽過下列哪些歌手或團體的歌?</div><br>
+		<div style="font-family:fantasy"><input type="checkbox" name="UserPhone[]" value="Maroon5" checked>Maroon5
+			<input type="checkbox" name="UserPhone[]" value="Coldplay" >Coldplay
+			<input type="checkbox" name="UserPhone[]" value="Burno Mars" >Burno Mars
+			<input type="checkbox" name="UserPhone[]" value="Charlie Puth" >Charlie Puth
+			<input type="checkbox" name="UserPhone[]" value="Taylor Swift" >Taylor Swift</div>
+		<br>
+		<div >你覺得哪些歌曲很好聽~?</div>
+			<textarea name="UserTrouble" cols="45" rows="4"></textarea><br>
+		
+		<input type="submit" value="提交">
+		<input type="reset" value="重新輸入">
+	 </form></div>
+	</body>
+</html>
